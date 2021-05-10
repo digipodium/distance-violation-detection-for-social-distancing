@@ -1,0 +1,5 @@
+/output.avi
+/pedestrians.mp4
+*.pyc
+*.ini
+*.weights
