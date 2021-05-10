@@ -37,7 +37,7 @@ if st.checkbox("Videos"):
             f.write(video.getbuffer())
             save_file(path)
             st.info('upload succesfully') 
-if st.checkbox("detect on vid file"):
+if st.checkbox("detect on video file"):
   db = opendb()
   videos=db.query(Video).all()
   db.close()
